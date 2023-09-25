@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/?size=512&id=REWqOFWKTiZj&format=png">
+         <!--Open graph data -->
+         <meta property=“og:locale” content="Argentina" />
+         <meta property="og:type" content="articulo" />
+         <meta property="og:title" content="Curriculum Vitae" />
+         <meta property="og:description" content="Esto es un Curriculum Vitae: recoge la trayectoria laboral y educativa" />
+         <meta property="og:image" content="https://th.bing.com/th/id/R.51def28917a5c37cb9924a264116b5cc?rik=Dupdgp8OOG4jDg&riu=http%3a%2f%2fpngimg.com%2fuploads%2fcv%2fcv_PNG1.png&ehk=pLXAW4oDSc87F1z4hHMA66e3BOLWLyRbLRBcvznhJ4M%3d&risl=&pid=ImgRaw&r=0" />
+         <link rel="stylesheet" type="text/css" href="estilos.css" />
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Open+Sans:wght@400;500;600&family=Russo+One&display=swap" rel="stylesheet">
+     
+    <nav id="nav">
+        <ul>
+          <li><a href="#Informacion-personal">INFORMACION PERSONAL</a></li>
+          <li><a href="#Experiencia">EXPERIENCIA</a></li>
+          <li><a href="#Habilidades">HABILIDADES</a></li>
+        </ul>
+    </nav>
+    <img src="https://randomuser.me/api/portraits/women/43.jpg" heigt="200px" width="200px" alt="Foto de perfil">
+</head>
+
+<body>
+    <script src="functioncv.js"></script>
+
+    <main>
+        <!--SECCION INFORMACION PERSONAL-->
+        <section id="Informacion-personal"> 
+            <h1>Paloma Bates</h1>
+            <h2>Junior Developer</h2>
+            <p><strong>Correo:</strong> paloma.bates@example.com</p>
+            <p><strong>Fecha de nacimiento:</strong> 1/11/1999</p>
+            <p><strong>Dirección:</strong> Camden ave 7437 - Santa Catalina</p>
+            <p><strong>Teléfono:</strong> (243)616-1810</p>    
+            <p><strong>Sitio Web:</strong> www.paloma.bates.com</p>      
+        </section>
+        
+         <!--SECCION EXPERIENCIA-->
+        <section id="Experiencia"> 
+            <h2>Experiencia</h2>
+            <div class="experience-list">
+                <div class="experience-details">
+                    <h2>Mercado Libro S.R.L.</h2>
+                    <p> Julio 2022- Actualidad</p> 
+                    <button onclick="myFunction()">Leer mas...</button>
+                    <p id="demo"></p>  
+                </div>
+   
+                <div class="experience-details">
+                    <h2>Planeta Moda S.A.</h2>
+                    <p> Marzo 2019 - Junio 2022 </p> 
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                </div>
+            </div>
+        </section>
+  
+         <!--SECCION HABILIDADES-->
+        <section id="Habilidades"> 
+            <h2>Habilidades</h2>
+            <p>Conocimientos HTML, CSS, JAVASCRIPT</p>
+            <p> Desarrollo de aplicaciones móviles</p>
+            <p> Resolución de problemas trabajo bajo presión</p>
+            <p>Idiomas Inglés B1</p>
+            <p>Disponibilidad full time</p>
+            <p>Capacidad de trabajar de forma remota y presencial</p>
+        </section>
+    </main>
+    
+          <!--FORMULARIO DE CONTACTO-->
+         <section id="Contacto">
+            <h2>Contacteme: </h2>
+            <form action="" id="formulario">
+               <label for="nombre">Nombre
+                <input type="text" id="nombre">
+              </label> 
+            
+            <div>
+              <label for="apellido">Apellido
+               <input type="apellido" id="apellido"> 
+              </label>
+            </div>
+        
+            <div>
+              <label for="correo">Correo
+                <input type="correo" id="correo"> 
+              </label>
+            </div>
+        
+            <div>
+              <label for="telefono">Telefono
+               <input type="telefono" id="telefono"> 
+              </label>
+            </div>
+        
+             <input type="submit" value='Enviar'>
+          </section>
+        </form>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+
+* { font-family: 'Open Sans', sans-serif;
+}
+
+header{ text-align: center;
+}
+
+body {
+  background-color: rgb(117, 155, 165);
+} 
+
+section#Informacion-personal{
+background-color:aquamarine;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 900px;
+width: 100%;
+}
+
+section#Experiencia{
+background-color: pink;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 900px;
+}
+
+section#Habilidades{
+background-color: lightgreen;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 800px;
+}
+
+
+h1 { color:grey;
+  font-family: 'Russo One', sans-serif;
+  width: 300px;
+  align-items: center;
+  font-size: 3rem;
+  text-align: center;
+  border: 2px solid lightsteelblue;
+}
+
+h2 { 
+  font-size: 2rem;
+  font-family: 'Merriweather', serif;
+  color: brown;
+}
+
+p {
+  font-size: 25px;
+  color: black;
+}
+
+* { box-sizing: border-box; }
+.col-1 {width: 25%;}
+.col-2 {width: 50%;}
+.col-3 {width: 75%;}
+.col-4 {width: 100%;}
+
+.menu {
+   width: 90%;
+   float: left;
+   padding: 15px;
+  border: 1px solid blue;
+}
+
+.main {
+  width: 100%;
+  padding: 20px 20px;
+  position: fixed;
+  align-items: center;
+ }
+
+
+
+
